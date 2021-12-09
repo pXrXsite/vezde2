@@ -1,0 +1,102 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+.wrath {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+	color: purple;
+}
+.image{
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info{
+  display: flex;
+  margin-bottom: 20px;
+}
+.info-text{
+  margin-left: 40px;
+}
+.det{
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.Hobbi{
+  background: #fff9dc;
+}
+.opt{
+  background: #e5ffe7;
+}
+.Hobbi p{
+  color: grey;
+}
+.shrif{
+  color: grey;
+}
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+.bth{
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.bth:hover{
+  opacity: 0.9;
+}
+.VIO {
+  text-align: center;
+}
